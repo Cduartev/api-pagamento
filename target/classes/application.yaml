@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: mp-checkout-pro
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/pm_api
+    username: postgres
+    password: admin
+
+  jpa:
+    hibernate:
+      ddl-auto: update
